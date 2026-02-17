@@ -1,0 +1,19 @@
+{
+  "name": "inm320-assign-3-alexei-bankov",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+"dev": "lite-server --baseDir=\"public\"",
+"watch": "sass --watch scss:public/assets/css",
+"start": "concurrently \"npm run watch\" \"npm run dev\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "sass": "^1.97.3"
+  }
+}
